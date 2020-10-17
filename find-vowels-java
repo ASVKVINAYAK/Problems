@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class vowels {
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner (System.in);
+		
+
+	    System.out.println("Enter a string: ");
+	    String s= sc.next();
+	    char a[] = s.toCharArray();
+	    int sum=0;
+	    for(int w = 0;w < s.length();w++) {
+	      if(a[w] == 'a' || a[w] == 'e' || a[w] == 'i' || a[w] == 'o' || a[w] == 'u') 
+	      {
+	    	  sum+=1;
+	      }
+	     
+	}
+	    System.out.println(sum);
+	}
+	}
+
+
